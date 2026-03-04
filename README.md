@@ -43,7 +43,8 @@ To handle changing contextual data (e.g., city names or regions), the project im
 1.  **Azure Setup:** Create a Resource Group, Event Hub (Standard Tier), ADLS Gen2 account, and Data Factory instance.
 2.  **Web App:** Run the Fast API application (`api.py`) to start producing simulated ride events to Event Hub.
 3.  **ADF Pipeline:** Trigger the `HTTP_to_ADLS` pipeline to migrate mapping data.
-4.  **Databricks SDP:** Create an ETL Pipeline in Databricks, pointing to the source code in the `transformations` folder to build the Bronze, Silver, and Gold layers.
+4.  **Databricks SDP:** Create an ETL Pipeline in Databricks, pointing to the source code in the `Databricks Files` folder to build the Bronze, Silver, and Gold layers.
 
 ---
 *This project was built following the instructional guidance of Ansh Lamba.*
+
